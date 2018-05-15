@@ -3,19 +3,9 @@ body {
     background: linear-gradient(to right, #360033, #0b8793);
     font-family: 'Open Sans';
     font-weight: 300;
+    margin-top: 25px;
 }
-.main {
-    background: white url(images/biere.jpg) right top no-repeat;
-    background-size: contain;
-    padding: 8px 20px 5px;
-    margin-top: 150px;
-}
-@media only screen and (max-width : 992px) {
-    .main {
-        background: white;
-        margin-top: 100px;
-    }
-}
+
 h1 {
     font-family: 'Titan One', cursive;
     font-weight: 300;
@@ -28,21 +18,5 @@ h2 {
     font-weight: 300;
     margin-top: 5px;
 }
-form {
-    margin-top: 75px;
-}
-input.form-control , input[type="submit"] , .btn {
-    border-radius: 0px;
-}
-.btn {
-    transition: all ease-in-out 0.2s;
-}
-.credits {
-    margin-top: 100px;
-    color: #999;
-    font-size: 12px;
-}
-.credits a {
-    color: inherit;
-}
+
 
